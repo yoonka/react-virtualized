@@ -83,7 +83,7 @@
         "transform-runtime"
       ],
       "presets": [
-        "env",
+        ["env", { "modules": false }],
         "react",
         "flow",
         "stage-1"
